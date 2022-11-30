@@ -32,7 +32,7 @@ high-frequency trading, average daily volume, trading strategy.<br>
 &emsp;at the detected observation? 
 
 ## Methodology：
-使用yfinance上抓取AAPL近一年內的股票資料，資訊包括股票的日期、收盤價、交易量，並且搭配本論文中提到的方法，進行高頻股票數據的罕見事件分析，
+使用yfinance上抓取AAPL近一年內的股票資料，資訊包括股票的日期、收盤價、交易量，並且搭配本論文中提到的方法，進行高頻股票數據的罕見事件分析。
 
 ## Sampling Method: Rare Event Detection：
 
