@@ -34,10 +34,6 @@ high-frequency trading, average daily volume, trading strategy.<br>
 ## Methodology：
 使用yfinance上抓取AAPL近一年內的股票資料，資訊包括股票的日期、收盤價、交易量，並且搭配本論文中提到的方法，進行高頻股票數據的罕見事件分析。
 
-## Sampling Method: Rare Event Detection：
-
-
-
 <br>-**捉歷史股價的工具**
 ```python
 !pip install yfinance
@@ -66,17 +62,17 @@ data = hist[["Close", "Volume"]]
 data.head()
 ```
 
-<br>-**for迴圈**
+<br>
 ```python
 data["Volume"].sum()
 ```
 
-<br>-**for迴圈**
+<br>
 ```python
 data.shape
 ```
 
-<br>-**for迴圈**
+<br>
 ```python
 print(data.iloc[0, 1])
 print(data.iloc[-1, 1])
@@ -87,7 +83,7 @@ for i in range(0, data.shape[0]-1):
 print(s_sum)
 ```
 
-<br>-**for迴圈**
+<br>
 ```python
 #for i in range(0, data.shape[0]):
  # print( int(data.iloc[j, 0]), int(data.iloc[j, 1]))
