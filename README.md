@@ -20,10 +20,16 @@ Project: Rare Events<br>
 Authors：Dragos Bozdog, Ionut¸ Florescu, Khaldoun Khashanah, and Jim Wang<br>
 source：https://www.researchgate.net/publication/215958736_Rare_Events_Analysis_of_High-Frequency_Equity_Data
 
-## Abstract and Figures
+## Abstract and Figures：
 In this work we present a methodology to detect rare events which are defined as large price movements relative to the volume traded. We analyze the behavior of equity after the detection of these rare events. We provide methods to calibrate trading rules based on the detection of these events and illustrate for a particular trading rule. We apply the methodology to tick data for thousands of equities over a period of five days. In order to draw comprehensive conclusions, we group the equities into classes and calculate probabilities of price recovery after these rare events for each class. The methodology that we have developed is based on non-parametric statistics and makes no assumption about the distribution of the random variables in the study.<br>
 
-## Keywords
+## Keywords：
+high-frequency trading, average daily volume, trading strategy.<br>
+
+## Objectives：
+• Develop a method to detect rare events in real time where the move ment of price is large with relatively small volume of shares traded.<br>
+• Analyze the price behavior after these rare events and study the prob ability of price recovery. What is the expected return if a trade is placed 
+&emsp;at the detected observation? 
 
 <br>-**捉歷史股價的工具**
 ```python
